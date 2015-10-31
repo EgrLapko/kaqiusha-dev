@@ -1,0 +1,141 @@
+﻿.dialog-lock {
+	background: black;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+.dialog-loading {
+	display: block;
+	background: url(../img/dialog/load.gif) no-repeat center;
+}
+.dialog-author {
+	position: absolute;
+	margin: -10% 0 0 -20%;
+	font-size: 12px;
+	color: #999999;
+	text-decoration: none;
+	font-family: arial;
+}
+.dialog-author:hover {
+	text-decoration: underline;
+}
+.dialog {
+	margin: 0 auto;
+	position: fixed;
+	background-color: none;
+	position: relative;
+	font-family: arial;
+	color: #888888;
+}
+.dialog td {
+	padding: 0;
+	vertical-align: top;
+}
+.dialog .dialog-next {
+	background: url(../img/dialog/next.png) no-repeat center;
+	width: 52px;
+	height: 140px;
+	position: absolute;
+	display: block;
+	margin: -70px 0px 0 15px;
+	display: none;
+}
+.dialog .dialog-next:hover, .dialog .dialog-prew:hover, .dialog .dialog-close:hover, .dialog .dialog-move:hover {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+.dialog .dialog-prew {
+	background: url(../img/dialog/prew.png) no-repeat center;
+	width: 52px;
+	height: 140px;
+	position: absolute;
+	display: block;
+	margin: -70px 0px 0 -45px;
+	display: none;
+}
+.dialog .dialog-close {
+	background: url(../img/dialog/close.png) no-repeat center;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	display: block;
+	margin: 16px 0px 0 -24px;
+}
+.dialog .dialog-move {
+	background: url(../img/dialog/move.png) no-repeat center 4px;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	display: block;
+	margin: 16px 0px 0 -60px;
+}
+.dialog .dialog-title {
+	text-align: center;
+	position: relative;
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	margin: 24px 0 -24px 0;
+}
+.dialog .dialog-caption {
+	text-align: center;
+	position: relative;
+	font-size: 12px;
+	color: white;
+}
+.dialog .dialog-copy {
+	position: absolute;
+	font-size: 10px;
+	color: #cccccc;
+	margin: -6px 0 0 -120px;
+	text-decoration: none;
+	display: block;
+	width: 120px;
+	text-align: right;
+}
+.dialog .dialog-copy:hover {
+	text-decoration: underline;
+}
+.dialog .dialog-data img {
+	border: 1px solid #d7d7d7;
+	padding: 0;
+	margin: 0;
+}
+.dialog iframe {
+	position: relative;
+	border: none;
+}
+.dialog .dialog-data {
+	margin: 24px 0px 6px 0px;
+	display: block;
+}
+.dialog .dialog-c {
+	vertical-align: top;
+}
+.dialog .dialog-tl {
+	width: 25px;
+	height: 25px;
+}
+.dialog .dialog-tl div {
+	width: 25px;
+	height: 25px;
+}
+.dialog .dialog-t {
+}
+.dialog .dialog-tr {
+}
+.dialog .dialog-l {
+	vertical-align: middle;
+}
+.dialog .dialog-r {
+	vertical-align: middle;
+}
+.dialog .dialog-bl {
+}
+.dialog .dialog-b {
+	width: 25px;
+	height: 25px;
+}
+.dialog .dialog-br div {
+	width: 25px;
+	height: 25px;
+}

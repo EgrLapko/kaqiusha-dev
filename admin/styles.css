@@ -1,0 +1,202 @@
+﻿@font-face {
+    font-family: 'red_octoberregular';
+    src: url('font/KcZt2Kko.eot');
+    src: url('font/KcZt2Kko.eot?#iefix') format('embedded-opentype'),
+         url('font/KcZt2Kko.woff2') format('woff2'),
+         url('font/KcZt2Kko.woff') format('woff'),
+         url('font/KcZt2Kko.ttf') format('truetype'),
+         url('font/KcZt2Kko.svg#red_octoberregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	width: 100%;
+	margin: 0 auto;
+	padding: auto;
+	text-align: center;
+	background-color: #5f0f0e;
+}
+a {
+	text-decoration: none;
+	text-transform: none;
+	color: orange;
+}
+a:hover {
+	color: orange;
+}
+body > .rollbar-content {
+	background: #5f0f0e;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+body > .rollbar-content {
+	background: #5f0f0e;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.example {
+	overflow-x: hidden;
+	border: 0px solid #dedede;
+	height: 100%;
+	width: 170px;
+	margin-top: 25px;
+}
+.example .rollbar-path-horizontal {
+	height: 5px;
+	background: rgba(255,255,255,0.2);
+}
+.example .rollbar-path-vertical {
+	width: 5px;
+	background: rgba(255,255,255,0.2);
+}
+.example .rollbar-path-vertical, .example .rollbar-path-horizontal {
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+/*@media screen and (max-width: 760px){ 
+	.resize { display: none; }
+}*/
+/ Android, iPhone */
+@media screen and (min-width: 10000px){
+	body > .rollbar-content { width: 320px; }
+	body > .rollbar-path-vertical { width: 3px; right: 2px; }
+	.center-wrapper { padding: 20px 10px 0; }
+	.example { width: 300px; height: 187px; }
+	.example .rollbar-content { min-width: 100%; min-height: 100%; }
+	.example img { width: 100%; }
+	#example2 img { width: auto; }
+	.nav_l {display:none;}
+	.nav {display:none;}
+
+}
+.header {
+	display: block;
+	width: 100%;
+	background-color: #000000;
+	height: 142px;
+}
+.logo {
+	margin-top: 5px;
+	padding-left: 0px;
+}
+.content {
+	margin: 0 auto;
+	background-color: #89120e;;
+	width: 1240px;
+	height: 1080px;
+	box-shadow: -23px -10px 33px 5px rgba(0, 0, 0, .2), 23px -10px 33px 5px rgba(0, 0, 0, .2);
+}
+.nav_l {
+	float: left;
+	/*margin-left: -180px;*/
+}
+.nav_l p {
+	margin-bottom: 0;
+	padding: 0;
+}
+.nav_l p1 {
+	color: orange;
+	font-size: 14px;
+	font-family: "red_octoberregular";
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+.nav_r {
+	text-decoration: none;
+	color: orange;
+	font-size: 14px;
+	font-family: "red_octoberregular";
+	float: right;
+	width: 185px;
+}
+.nav {
+	text-decoration: none;
+	color: orange;
+	font-size: 18px;
+	font-family: "red_octoberregular";
+	float: right;
+	padding-top: 180px;
+	width: 185px;
+	/*margin-right: -165px;*/
+}
+.nav a: {
+	color: orange;
+}
+.noviny {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	font-size: 20px;
+	padding-top: 10px; /*font-family: DFKai-SB;*/;}
+	
+
+.tab {
+	text-align: center;
+	padding-top: 80px;
+}
+.center {
+	display: block;
+	margin: 0 auto;
+	background-color: #c31507;
+	height: auto;
+	width: 860px;
+	margin: 0px auto;
+	box-shadow: -23px -10px 63px 5px rgba(0, 0, 0, .2), 23px -10px 63px 5px rgba(0, 0, 0, .2);
+}
+.form-art {
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+}
+.table1 {
+	font-family: "triumphregular";
+}
+.table {
+	margin: 0 auto;
+	font-family: "red_octoberregular";
+	font-size: 10px;
+	color: yellow;
+	text-align: center;
+}
+.tr {
+	font-family: "red_octoberregular";
+	font-size: 10px;
+	color: yellow;
+	background-color: red;
+}
+.effect1 {
+	box-shadow: 0 27px 46px 7px rgba(0,0,0,0.5);
+	margin-bottom: 30px;
+}
+.effect {
+float:left;
+	box-shadow: 0 27px 46px 7px rgba(0,0,0,0.5);
+}
+.table, .table1 {
+	margin: 0 auto;
+	font-family: calibri; /*font-family: "red_octoberregular";*/;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	font-weight: 400;
+}
+.table td {
+	/*width: 220px;*/;
+	vertical-align: bottom;
+	text-align: -webkit-center;
+}
+.table p {
+	height: 44px;
+	width: 207px;
+}
+.table span {
+	color: black;
+}
+.table img {
+	max-height: 220px;
+	max-width: 230px;
+	box-shadow: 0 3px 10px #000;
+}

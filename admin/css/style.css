@@ -1,0 +1,32 @@
+﻿
+
+/*  examples */
+.example {  border: 5px solid #dedede; height:400px; width:640px; }
+.example .rollbar-path-horizontal { height: 3px; background: rgba(255,255,255,0.2); }
+.example .rollbar-path-vertical { width: 3px; background: rgba(255,255,255,0.2); }
+.example .rollbar-path-vertical, .example .rollbar-path-horizontal {
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+} 
+
+@media screen and (max-width: 760px){ 
+	.resize { display: none; }
+}
+
+/* Android, iPhone */
+@media screen and (max-width: 320px){
+	body > .rollbar-content { width: 320px; }
+	body > .rollbar-path-vertical { width: 3px; right: 2px; }
+	.center-wrapper { padding: 20px 10px 0; }
+	.example { width: 300px; height: 187px; }
+	.example .rollbar-content { min-width: 100%; min-height: 100%; }
+	.example img { width: 100%; }
+	#example2 img { width: auto; }
+	.resize { display: none; }
+}
+
+
+
+
+

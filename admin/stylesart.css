@@ -1,0 +1,22 @@
+﻿body {
+ background-color:black;
+}
+.form-art{
+text-align:center;
+}
+.tab-art {
+margin:0;
+color:yellow;
+text-align:center;
+margin-left:100px;
+ 
+}
+
+ input{
+	width:85%;
+}
+.tr  {
+color:yellow;
+	 background-color:red;
+	 	
+}
